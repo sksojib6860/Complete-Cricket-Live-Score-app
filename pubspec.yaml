@@ -1,0 +1,33 @@
+name: assign_live_scoree_app
+description: "a New Ostad batch 12 Assignment"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.3.0
+  cloud_firestore: ^6.1.1
+  firebase_messaging: ^16.1.0
+  firebase_crashlytics: ^5.0.6
+  firebase_analytics: ^12.1.0
+  firebase_auth: ^6.1.3
+  google_mobile_ads: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+## ending to say
